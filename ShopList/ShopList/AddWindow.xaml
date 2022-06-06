@@ -1,0 +1,78 @@
+﻿<Window x:Class="ShopList.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShopList"
+        mc:Ignorable="d"
+        WindowStyle="None" ResizeMode="NoResize"
+        AllowsTransparency="True" Background="Transparent"
+        Height="200" Width="300">
+    <Border CornerRadius="10" BorderThickness="2"
+            BorderBrush="#FFFFE08C">
+        <Border.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#0a2337" Offset="0"/>
+                <GradientStop Color="#bfb6fc" Offset="1.2"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Content="Dodaj przedmiot"
+                   Foreground="#FFFFE08C" FontSize="18"
+                   Margin="20,0,0,0" FontWeight="Black"/>
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <TextBlock Text="Przedmiot" Foreground="#FFFFE08C"
+                           FontSize="16" VerticalAlignment="Center"
+                           Margin="20,0,0,0" Width="75"/>
+                <TextBox x:Name="ItemInput" Width="170"
+                         Height="30" Margin="10,0,20,0"
+                         VerticalContentAlignment="Center"
+                         FontSize="14" Text="{Binding ProductName, Mode=TwoWay}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Orientation="Horizontal">
+                <TextBlock Text="Gramatura" Foreground="#FFFFE08C"
+                           FontSize="16" VerticalAlignment="Center"
+                           Margin="20,0,0,0" Width="75"/>
+                <TextBox x:Name="GrammageInput" Width="170"
+                         Height="30" Margin="10,0,20,0"
+                         VerticalContentAlignment="Center"
+                         FontSize="14" PreviewTextInput="GrammageInput_PreviewTextInput"
+                         Text="{Binding ProductGrammage, Mode=TwoWay}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Orientation="Horizontal">
+                <TextBlock Text="Kategoria" Foreground="#FFFFE08C"
+                           FontSize="16" VerticalAlignment="Center"
+                           Margin="20,0,0,0" Width="75"/>
+                <ComboBox Name="CategoryBox" Margin="10,0,0,0" 
+                          Width="170" Height="30"
+                          FontSize="14" SelectedIndex="7">
+                    <ComboBoxItem Content="Warzywa"/>
+                    <ComboBoxItem Content="Owoce"/>
+                    <ComboBoxItem Content="Napoje"/>
+                    <ComboBoxItem Content="Mięsa"/>
+                    <ComboBoxItem Content="Wędliny"/>
+                    <ComboBoxItem Content="Słodycze"/>
+                    <ComboBoxItem Content="Inne"/>
+                    <ComboBoxItem Content="-Wybierz-"/>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Orientation="Horizontal">
+                <Button x:Name="Accept" Content="Dodaj"
+                        Style="{StaticResource Control}"
+                        Height="30" Width="100" Margin="54,0,0,0"
+                        Click="Accept_Click"/>
+                <Button x:Name="Cancel" Content="Zamknij"
+                        Style="{StaticResource Control}"
+                        Height="30" Width="100" Margin="20,0,0,0"
+                        Click="Cancel_Click"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

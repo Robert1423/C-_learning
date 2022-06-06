@@ -1,0 +1,29 @@
+{
+  "Products": [
+    {
+      "Name": "Woda",
+      "Grammage": "4",
+      "Category": 2,
+      "IsSelected": false
+    },
+    {
+      "Name": "Indyk",
+      "Grammage": "500",
+      "Category": 3,
+      "IsSelected": false
+    },
+    {
+      "Name": "Ser",
+      "Grammage": "40",
+      "Category": 6,
+      "IsSelected": false
+    },
+    {
+      "Name": "Sałata",
+      "Grammage": "1",
+      "Category": 0,
+      "IsSelected": false
+    }
+  ],
+  "FiltredList": []
+}
