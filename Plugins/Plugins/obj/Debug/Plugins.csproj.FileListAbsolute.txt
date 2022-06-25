@@ -1,0 +1,14 @@
+D:\po\Plugins\Plugins\bin\Debug\Plugins.exe.config
+D:\po\Plugins\Plugins\bin\Debug\Plugins.exe
+D:\po\Plugins\Plugins\bin\Debug\Plugins.pdb
+D:\po\Plugins\Plugins\bin\Debug\Plugin.Contracts.dll
+D:\po\Plugins\Plugins\bin\Debug\Plugin.SpacedOut.dll
+D:\po\Plugins\Plugins\bin\Debug\Plugin.Contracts.pdb
+D:\po\Plugins\Plugins\bin\Debug\Plugin.SpacedOut.pdb
+D:\po\Plugins\Plugins\obj\Debug\Plugins.csprojAssemblyReference.cache
+D:\po\Plugins\Plugins\obj\Debug\Plugins.csproj.CoreCompileInputs.cache
+D:\po\Plugins\Plugins\obj\Debug\Plugins.csproj.CopyComplete
+D:\po\Plugins\Plugins\obj\Debug\Plugins.exe
+D:\po\Plugins\Plugins\obj\Debug\Plugins.pdb
+D:\po\Plugins\Plugins\bin\Debug\Newtonsoft.Json.dll
+D:\po\Plugins\Plugins\bin\Debug\Newtonsoft.Json.xml

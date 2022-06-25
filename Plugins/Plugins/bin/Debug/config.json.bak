@@ -1,0 +1,6 @@
+{
+"pluginsPaths" : [
+	"Plugin.Contracts.dll",
+	"Plugin.SpacedOut.dll"
+]
+}	

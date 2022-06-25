@@ -1,0 +1,6 @@
+D:\po\Plugins\Plugin.Contracts\bin\Debug\Plugin.Contracts.dll
+D:\po\Plugins\Plugin.Contracts\bin\Debug\Plugin.Contracts.pdb
+D:\po\Plugins\Plugin.Contracts\obj\Debug\Plugin.Contracts.csprojAssemblyReference.cache
+D:\po\Plugins\Plugin.Contracts\obj\Debug\Plugin.Contracts.csproj.CoreCompileInputs.cache
+D:\po\Plugins\Plugin.Contracts\obj\Debug\Plugin.Contracts.dll
+D:\po\Plugins\Plugin.Contracts\obj\Debug\Plugin.Contracts.pdb

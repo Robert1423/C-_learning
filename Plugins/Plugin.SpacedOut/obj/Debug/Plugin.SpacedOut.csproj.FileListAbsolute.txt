@@ -1,0 +1,9 @@
+D:\po\Plugins\Plugin.SpacedOut\bin\Debug\Plugin.SpacedOut.dll
+D:\po\Plugins\Plugin.SpacedOut\bin\Debug\Plugin.SpacedOut.pdb
+D:\po\Plugins\Plugin.SpacedOut\bin\Debug\Plugin.Contracts.dll
+D:\po\Plugins\Plugin.SpacedOut\bin\Debug\Plugin.Contracts.pdb
+D:\po\Plugins\Plugin.SpacedOut\obj\Debug\Plugin.SpacedOut.csprojAssemblyReference.cache
+D:\po\Plugins\Plugin.SpacedOut\obj\Debug\Plugin.SpacedOut.csproj.CoreCompileInputs.cache
+D:\po\Plugins\Plugin.SpacedOut\obj\Debug\Plugin.SpacedOut.csproj.CopyComplete
+D:\po\Plugins\Plugin.SpacedOut\obj\Debug\Plugin.SpacedOut.dll
+D:\po\Plugins\Plugin.SpacedOut\obj\Debug\Plugin.SpacedOut.pdb
